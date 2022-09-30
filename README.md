@@ -73,6 +73,9 @@ Steps for adding your name below
     
 <td align="center"><a href="https://github.com/adarsh-jaiss"><kbd><img src="https://avatars3.githubusercontent.com/adarsh-jaiss?size=400" width="100px;" alt=""/></kbd><br /><sub><b>adarsh-jaiss</b></sub></a><br /><a href="https://github.com/adarsh-jaiss/hacktoberfest/commits?author=adarsh-jaiss" title="Code"> :computer: </a> </td>
 </tr>
+  
+<td align="center"><a href="https://github.com/404Nikhil"><kbd><img src="https://avatars3.githubusercontent.com/404Nikhil?size=400" width="100px;" alt=""/></kbd><br /><sub><b>Nikhil Dhariwal</b></sub></a><br /><a href="https://github.com/404Nikhil/hacktoberfest/commits?author=404Nikhil" title="Code"> :computer: </a>  </td>   
+    
 </table>
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
