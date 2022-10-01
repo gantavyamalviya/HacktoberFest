@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+vector<string> Soln;
+void ratMaze(vector<vector<int>> &a, int b, int row, int col, string S)
+{
+    if(row<0 || row==b || col<0 || col==b || a[row][col]==0)
+        return ;
+    
+    a[row][col] = 0;
+    if(row == b-1 && col == b-1)
+        Ans.push_back(S);
+
+    ratMaze(a, b, row+1, col, S+"D");
+    ratMaze(a, b, row, col-1, S+"L");
+    ratMaze(a, b, row, col+1, S+"R");
+    ratMaze(a, b, row-1, col, S+"U") ;
+    
+    a[row][col] = 1;
+}
+
+vector<string> ratPath(vector<vector<int>> &a, int b)
+{
+    ratMaze(a, b, 0, 0, "");
+    return Soln;
+}
+
+    
